@@ -62,6 +62,72 @@ function AppViewModel() {
     this.statBonusStrength = ko.computed(function() {
         return statBonus(this.statStrength());
     }, this);
+
+    this.characterAttributes = [
+        {
+            name: "Physical",
+            attributes: [
+                {
+                    name: "Strength",
+                    score: 0
+                },
+                {
+                    name: "Endurance",
+                    score: 0
+                },
+                {
+                    name: "Agility",
+                    score: 0
+                },
+                {
+                    name: "Speed",
+                    score: 0
+                }
+            ]
+        },
+        {
+            name: "Mental",
+            attributes: [
+                {
+                    name: "Willpower",
+                    score: 0
+                },
+                {
+                    name: "Insight",
+                    score: 0
+                },
+                {
+                    name: "Reasoning",
+                    score: 0
+                },
+                {
+                    name: "Perception",
+                    score: 0
+                }
+            ]
+        },
+        {
+            name: "Social",
+            attributes: [
+                {
+                    name: "Presence",
+                    score: 0
+                },
+                {
+                    name: "Composure",
+                    score: 0
+                },
+                {
+                    name: "Manipulation",
+                    score: 0
+                },
+                {
+                    name: "Beauty",
+                    score: 0
+                }
+            ]
+        }
+    ];
 }
 
 // Activate knockout.js
