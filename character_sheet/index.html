@@ -71,6 +71,18 @@
             <h1>Attributes</h1>
 
             <div class="row char-attributes">
+
+                <!-- Template for character attribute input field -->
+                <script id="char-attribute-template" type="text/html">
+                    <div class="control-group">
+                        <label class="control-label" for="inputStatName" data-bind="text: statName"></label>
+                        <div class="controls">
+                            <input type="number" min="0" max="9" step="1" id="inputStatName" placeholder="0-9" class="input-small" data-bind="value: statValue">
+                            <span class="attribute-bonus" data-bind="text: statBonus"></span>
+                        </div>
+                    </div>
+                </script>
+
                 <div class="span4">
                     <h2>Physical</h2>
                     <form class="form-horizontal">
