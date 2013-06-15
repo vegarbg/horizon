@@ -1,3 +1,8 @@
+// Source: http://stackoverflow.com/a/1830844
+function isNumber(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n);
+}
+
 function AppViewModel() {
     this.statStrength = ko.observable();
     this.statEndurance = ko.observable();
