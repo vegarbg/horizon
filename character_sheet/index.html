@@ -72,6 +72,16 @@
 
             <div class="row char-attributes">
 
+                <!-- Template for character attribute groups -->
+                <script id="attribute-group-template" type="text/html">
+                    <div class="span4">
+                        <form class="form-horizontal">
+                            <h2 data-bind="text: group.name"></h2>
+                            <div data-bind="template: { name: 'attribute-template', foreach: group.attributes, as: 'attribute' }"></div>
+                        </form>
+                    </div>
+                </script>
+
                 <!-- Template for character attribute input field -->
                 <script id="attribute-template" type="text/html">
                     <div class="control-group">
