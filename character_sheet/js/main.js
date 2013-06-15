@@ -60,7 +60,7 @@ function AppViewModel() {
     this.statBeauty = ko.observable();
 
     this.statBonusStrength = ko.computed(function() {
-        return this.statStrength();
+        return statBonus(this.statStrength());
     }, this);
 }
 
