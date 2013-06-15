@@ -13,6 +13,10 @@ function AppViewModel() {
     this.statComposure = ko.observable();
     this.statManipulation = ko.observable();
     this.statBeauty = ko.observable();
+
+    this.statBonusStrength = ko.computed(function() {
+        return this.statStrength();
+    }, this);
 }
 
 // Activate knockout.js
