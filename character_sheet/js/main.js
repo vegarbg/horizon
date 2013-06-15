@@ -1,3 +1,4 @@
+$(function() {
 function AppViewModel() {
     this.statStrength = ko.observable();
     this.statEndurance = ko.observable();
@@ -17,3 +18,4 @@ function AppViewModel() {
 
 // Activate knockout.js
 ko.applyBindings(new AppViewModel());
+});
