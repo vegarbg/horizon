@@ -112,5 +112,6 @@ var AppViewModel = {
 };
 
 // Activate knockout.js
-ko.applyBindings(AppViewModel);
+var viewModel = ko.mapping.fromJS(AppViewModel);
+ko.applyBindings(viewModel);
 
