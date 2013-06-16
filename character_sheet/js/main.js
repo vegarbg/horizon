@@ -5,7 +5,7 @@ function isNumber(n) {
 
 function statBonus(statValue) {
     if(!isNumber(statValue)) {
-        return false;
+        return null;
     }
     switch(+statValue) { // cast to number
         case 0:
@@ -39,7 +39,7 @@ function statBonus(statValue) {
             return 21;
             break;
         default:
-            return false;
+            return null;
     }
 }
 
