@@ -44,7 +44,7 @@ function statBonus(statValue) {
 }
 
 var AppViewModel = {
-    characterAttributes: [
+    attribute_groups: [
         {
             name: "Physical",
             attributes: [
