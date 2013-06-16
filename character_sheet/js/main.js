@@ -48,52 +48,28 @@ var AppViewModel = {
         {
             name: "Physical",
             attributes: [
-                {
-                    name: "Strength"
-                },
-                {
-                    name: "Endurance"
-                },
-                {
-                    name: "Agility"
-                },
-                {
-                    name: "Speed"
-                }
+                { name: "Strength" },
+                { name: "Endurance" },
+                { name: "Agility" },
+                { name: "Speed" }
             ]
         },
         {
             name: "Mental",
             attributes: [
-                {
-                    name: "Willpower"
-                },
-                {
-                    name: "Insight"
-                },
-                {
-                    name: "Reasoning"
-                },
-                {
-                    name: "Perception"
-                }
+                { name: "Willpower" },
+                { name: "Insight" },
+                { name: "Reasoning" },
+                { name: "Perception" }
             ]
         },
         {
             name: "Social",
             attributes: [
-                {
-                    name: "Presence"
-                },
-                {
-                    name: "Composure"
-                },
-                {
-                    name: "Manipulation"
-                },
-                {
-                    name: "Beauty"
-                }
+                { name: "Presence" },
+                { name: "Composure" },
+                { name: "Manipulation" },
+                { name: "Beauty" }
             ]
         }
     ]
