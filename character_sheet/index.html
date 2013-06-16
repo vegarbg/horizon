@@ -97,6 +97,25 @@
 
             </div>
 
+            <h2>Skills</h2>
+
+            <div class="row char-skills">
+
+                <!-- Template for skill groups -->
+                <script id="skill-group-template" type="text/html">
+                    <h3 data-bind="text: group.name"></h3>
+                    <div data-bind="template: { name: 'skill-template', foreach: group.skills, as: 'skill' }"></div>
+                </script>
+
+                <!-- Template for skills -->
+                <script id="skill-template" type="text/html">
+                    <div data-bind="text: skill.name"></div>
+                </script>
+
+                <div data-bind="template: { name: 'skill-group-template', foreach: skill_groups, as: 'group' }"></div>
+
+            </div>
+
             <hr>
 
             <footer>
