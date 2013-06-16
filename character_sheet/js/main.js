@@ -99,7 +99,23 @@ var AppViewModel = {
     ]
 };
 
+var attributesMapping = {
+    "attributes": {
+        "create": function(options) {
+            return new AttributesModel(options.data);
+        }
+    }
+};
+
+function AttributesModel(data) {
+    ko.mapping.fromJS(data, {}, this);
+    this.score = ko.observable();
+    this.bonus = ko.computed(function() {
+        return statBonus(this.score());
+    }, this);
+}
+
 // Activate knockout.js
-var viewModel = ko.mapping.fromJS(AppViewModel);
+var viewModel = ko.mapping.fromJS(AppViewModel, attributesMapping);
 ko.applyBindings(viewModel);
 
