@@ -50,19 +50,19 @@ var AppViewModel = {
             attributes: [
                 {
                     name: "Strength",
-                    score: 0
+                    score: ""
                 },
                 {
                     name: "Endurance",
-                    score: 0
+                    score: ""
                 },
                 {
                     name: "Agility",
-                    score: 0
+                    score: ""
                 },
                 {
                     name: "Speed",
-                    score: 0
+                    score: ""
                 }
             ]
         },
@@ -71,19 +71,19 @@ var AppViewModel = {
             attributes: [
                 {
                     name: "Willpower",
-                    score: 0
+                    score: ""
                 },
                 {
                     name: "Insight",
-                    score: 0
+                    score: ""
                 },
                 {
                     name: "Reasoning",
-                    score: 0
+                    score: ""
                 },
                 {
                     name: "Perception",
-                    score: 0
+                    score: ""
                 }
             ]
         },
@@ -92,19 +92,19 @@ var AppViewModel = {
             attributes: [
                 {
                     name: "Presence",
-                    score: 0
+                    score: ""
                 },
                 {
                     name: "Composure",
-                    score: 0
+                    score: ""
                 },
                 {
                     name: "Manipulation",
-                    score: 0
+                    score: ""
                 },
                 {
                     name: "Beauty",
-                    score: 0
+                    score: ""
                 }
             ]
         }
