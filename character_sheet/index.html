@@ -105,13 +105,22 @@
 
                 <!-- Template for skill groups -->
                 <script id="skill-group-template" type="text/html">
-                    <h3 data-bind="text: group.name"></h3>
-                    <div data-bind="template: { name: 'skill-template', foreach: group.skills, as: 'skill' }"></div>
+                    <div class="span3">
+                        <h3 data-bind="text: group.name"></h3>
+                        <table class="table table-hover">
+                            <thead>
+                                <th>Skill name</th>
+                            </thead>
+                            <tbody data-bind="template: { name: 'skill-template', foreach: group.skills, as: 'skill' }"></tbody>
+                        </table>
+                    </div>
                 </script>
 
                 <!-- Template for skills -->
                 <script id="skill-template" type="text/html">
-                    <div data-bind="text: skill.name"></div>
+                    <tr>
+                        <td data-bind="text: skill.name"></td>
+                    </tr>
                 </script>
 
             </div>
