@@ -50,19 +50,31 @@ var AppViewModel = {
             attributes: [
                 {
                     name: "Strength",
-                    score: null
+                    score: null,
+                    bonus: ko.computed(function() {
+                        return statBonus(this.score)
+                    }, this)
                 },
                 {
                     name: "Endurance",
-                    score: null
+                    score: null,
+                    bonus: ko.computed(function() {
+                        return statBonus(this.score)
+                    }, this)
                 },
                 {
                     name: "Agility",
-                    score: null
+                    score: null,
+                    bonus: ko.computed(function() {
+                        return statBonus(this.score)
+                    }, this)
                 },
                 {
                     name: "Speed",
-                    score: null
+                    score: null,
+                    bonus: ko.computed(function() {
+                        return statBonus(this.score)
+                    }, this)
                 }
             ]
         },
@@ -71,19 +83,31 @@ var AppViewModel = {
             attributes: [
                 {
                     name: "Willpower",
-                    score: null
+                    score: null,
+                    bonus: ko.computed(function() {
+                        return statBonus(this.score)
+                    }, this)
                 },
                 {
                     name: "Insight",
-                    score: null
+                    score: null,
+                    bonus: ko.computed(function() {
+                        return statBonus(this.score)
+                    }, this)
                 },
                 {
                     name: "Reasoning",
-                    score: null
+                    score: null,
+                    bonus: ko.computed(function() {
+                        return statBonus(this.score)
+                    }, this)
                 },
                 {
                     name: "Perception",
-                    score: null
+                    score: null,
+                    bonus: ko.computed(function() {
+                        return statBonus(this.score)
+                    }, this)
                 }
             ]
         },
@@ -92,19 +116,31 @@ var AppViewModel = {
             attributes: [
                 {
                     name: "Presence",
-                    score: null
+                    score: null,
+                    bonus: ko.computed(function() {
+                        return statBonus(this.score)
+                    }, this)
                 },
                 {
                     name: "Composure",
-                    score: null
+                    score: null,
+                    bonus: ko.computed(function() {
+                        return statBonus(this.score)
+                    }, this)
                 },
                 {
                     name: "Manipulation",
-                    score: null
+                    score: null,
+                    bonus: ko.computed(function() {
+                        return statBonus(this.score)
+                    }, this)
                 },
                 {
                     name: "Beauty",
-                    score: null
+                    score: null,
+                    bonus: ko.computed(function() {
+                        return statBonus(this.score)
+                    }, this)
                 }
             ]
         }
