@@ -72,6 +72,8 @@
 
             <div class="row char-attributes">
 
+                <div data-bind="template: { name: 'attribute-group-template', foreach: attribute_groups, as: 'group' }"></div>
+
                 <!-- Template for character attribute groups -->
                 <script id="attribute-group-template" type="text/html">
                     <div class="span4">
@@ -93,13 +95,13 @@
                     </div>
                 </script>
 
-                <div data-bind="template: { name: 'attribute-group-template', foreach: attribute_groups, as: 'group' }"></div>
-
             </div>
 
             <h2>Skills</h2>
 
             <div class="row char-skills">
+
+                <div data-bind="template: { name: 'skill-group-template', foreach: skill_groups, as: 'group' }"></div>
 
                 <!-- Template for skill groups -->
                 <script id="skill-group-template" type="text/html">
@@ -111,8 +113,6 @@
                 <script id="skill-template" type="text/html">
                     <div data-bind="text: skill.name"></div>
                 </script>
-
-                <div data-bind="template: { name: 'skill-group-template', foreach: skill_groups, as: 'group' }"></div>
 
             </div>
 
