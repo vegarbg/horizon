@@ -43,6 +43,13 @@ function statBonus(statValue) {
     }
 }
 
+function skillCost(skillRank) {
+    if(!isNumber(skillRank) || skillRank < 0) {
+        return null;
+    }
+    return (+skillRank * (+skillRank+1)) / 2;
+}
+
 var AppViewModel = {
     attribute_groups: [
         {
@@ -269,6 +276,9 @@ function AttributesModel(data) {
 function SkillsModel(data) {
     ko.mapping.fromJS(data, {}, this);
     this.rank = ko.observable();
+    this.cost = ko.computed(function() {
+        return skillCost(this.rank());
+    }, this);
 }
 
 // Activate knockout.js
