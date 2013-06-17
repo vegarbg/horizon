@@ -87,6 +87,8 @@ var AppViewModel = {
                 {
                     name: "Awareness",
                     primary_attributes: [
+                        "Perception",
+                        "Composure"
                     ],
                     secondary_attributes: [
                     ]
@@ -94,13 +96,21 @@ var AppViewModel = {
                 {
                     name: "Sense Motive",
                     primary_attributes: [
+                        "Insight",
+                        "Perception"
                     ],
                     secondary_attributes: [
+                        "Reasoning",
+                        "Composure"
                     ]
                 },
                 {
                     name: "Dodge",
                     primary_attributes: [
+                        "Agility",
+                        "Insight",
+                        "Speed",
+                        "Perception"
                     ],
                     secondary_attributes: [
                     ]
@@ -108,6 +118,8 @@ var AppViewModel = {
                 {
                     name: "Focus",
                     primary_attributes: [
+                        "Willpower",
+                        "Composure"
                     ],
                     secondary_attributes: [
                     ]
