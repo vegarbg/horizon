@@ -84,169 +84,637 @@ var AppViewModel = {
         {
             name: "Uncategorized",
             skills: [
-                { name: "Awareness" },
-                { name: "Sense Motive" },
-                { name: "Dodge" },
-                { name: "Focus" }
+                {
+                    name: "Awareness",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Sense Motive",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Dodge",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Focus",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Athletics",
             skills: [
-                { name: "Climb" },
-                { name: "Jump" },
-                { name: "Contort" },
-                { name: "Swim" },
-                { name: "Balance" },
-                { name: "Acrobatics" }
+                {
+                    name: "Climb",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Jump",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Contort",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Swim",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Balance",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Acrobatics",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Armour",
             skills: [
-                { name: "Light Armour" },
-                { name: "Medium Armour" },
-                { name: "Heavy Armour" }
+                {
+                    name: "Light Armour",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Medium Armour",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Heavy Armour",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Martial Arts",
             skills: [
-                { name: "Soft Fall" },
-                { name: "Sweeping Throw" },
-                { name: "Punches" },
-                { name: "Kicks" },
-                { name: "Locking Grip" }
+                {
+                    name: "Soft Fall",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Sweeping Throw",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Punches",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Kicks",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Locking Grip",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Subterfuge, Social",
             skills: [
-                { name: "Bluff" },
-                { name: "Diplomacy" },
-                { name: "Intimidate" },
-                { name: "Seduce" },
-                { name: "Disguise" }
+                {
+                    name: "Bluff",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Diplomacy",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Intimidate",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Seduce",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Disguise",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Subterfuge, Mechanical",
             skills: [
-                { name: "Forgery" },
-                { name: "Open Lock" },
-                { name: "Disable Trap" },
-                { name: "Sneak" }
+                {
+                    name: "Forgery",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Open Lock",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Disable Trap",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Sneak",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Craft, Mechanical",
             skills: [
-                { name: "Locksmith" },
-                { name: "Clockmaker" },
-                { name: "Trapmaking" }
+                {
+                    name: "Locksmith",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Clockmaker",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Trapmaking",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Craft, Construction",
             skills: [
-                { name: "Carpentry" },
-                { name: "Masonry" }
+                {
+                    name: "Carpentry",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Masonry",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Medicine",
             skills: [
-                { name: "Treat Wounds" },
-                { name: "Herbalism" }
+                {
+                    name: "Treat Wounds",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Herbalism",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Perform",
             skills: [
-                { name: "Music [instrument]" },
-                { name: "Oratory" },
-                { name: "Theatre" },
-                { name: "Buffoonery" }
+                {
+                    name: "Music [instrument]",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Oratory",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Theatre",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Buffoonery",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Academics",
             skills: [
-                { name: "Knowledge (Religion)" },
-                { name: "Knowledge (History)" },
-                { name: "Knowledge (Anatomy)" },
-                { name: "Knowledge (Magic)" }
+                {
+                    name: "Knowledge (Religion)",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Knowledge (History)",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Knowledge (Anatomy)",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Knowledge (Magic)",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Blades",
             skills: [
-                { name: "Knife" },
-                { name: "Short Sword" },
-                { name: "Long Sword" },
-                { name: "Greatsword" },
-                { name: "Rapier" },
-                { name: "Axe" },
-                { name: "Greataxe" }
+                {
+                    name: "Knife",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Short Sword",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Long Sword",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Greatsword",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Rapier",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Axe",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Greataxe",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Blunt",
             skills: [
-                { name: "Club" },
-                { name: "Greatclub" },
-                { name: "Flail" },
-                { name: "Baton" },
-                { name: "Sap" },
-                { name: "Axe" },
-                { name: "Greataxe" }
+                {
+                    name: "Club",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Greatclub",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Flail",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Baton",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Sap",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Axe",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Greataxe",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Bows",
             skills: [
-                { name: "Footbow" },
-                { name: "Longbow" },
-                { name: "Shortbow" },
-                { name: "Crossbow" }
+                {
+                    name: "Footbow",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Longbow",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Shortbow",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Crossbow",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Thrown",
             skills: [
-                { name: "Knife" },
-                { name: "Sling" },
-                { name: "Spear" },
-                { name: "Darts" },
-                { name: "Shuriken" },
-                { name: "Boomerang" },
-                { name: "Bolas" }
+                {
+                    name: "Knife",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Sling",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Spear",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Darts",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Shuriken",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Boomerang",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Bolas",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Polearms",
             skills: [
-                { name: "Halberd" },
-                { name: "Spear" },
-                { name: "Lance" },
-                { name: "Quarterstaff" },
-                { name: "Three-part Staff" }
+                {
+                    name: "Halberd",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Spear",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Lance",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Quarterstaff",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Three-part Staff",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Flexible Weapons",
             skills: [
-                { name: "Rope Dart" },
-                { name: "Chain" },
-                { name: "Whip" }
+                {
+                    name: "Rope Dart",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Chain",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Whip",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         },
         {
             name: "Animal Husbandry",
             skills: [
-                { name: "Handle Animal" },
-                { name: "Ride" },
-                { name: "Animal Empathy" }
+                {
+                    name: "Handle Animal",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Ride",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                },
+                {
+                    name: "Animal Empathy",
+                    primary_attributes: [
+                    ],
+                    secondary_attributes: [
+                    ]
+                }
             ]
         }
     ]
