@@ -250,6 +250,11 @@ var attributesMapping = {
         "create": function(options) {
             return new AttributesModel(options.data);
         }
+    },
+    "skills": {
+        "create": function(options) {
+            return new SkillsModel(options.data);
+        }
     }
 };
 
@@ -259,6 +264,11 @@ function AttributesModel(data) {
     this.bonus = ko.computed(function() {
         return statBonus(this.score());
     }, this);
+}
+
+function SkillsModel(data) {
+    ko.mapping.fromJS(data, {}, this);
+    this.rank = ko.observable();
 }
 
 // Activate knockout.js
