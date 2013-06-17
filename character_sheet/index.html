@@ -110,6 +110,7 @@
                         <table class="table table-hover">
                             <thead>
                                 <th>Skill name</th>
+                                <th>Ranks</th>
                             </thead>
                             <tbody data-bind="template: { name: 'skill-template', foreach: group.skills, as: 'skill' }"></tbody>
                         </table>
@@ -120,6 +121,9 @@
                 <script id="skill-template" type="text/html">
                     <tr>
                         <td data-bind="text: skill.name"></td>
+                        <td>
+                            <input type="number" min="0" max="20" step="1" id="inputStatName" placeholder="0-20" class="input-small" data-bind="value: skill.rank">
+                        </td>
                     </tr>
                 </script>
 
