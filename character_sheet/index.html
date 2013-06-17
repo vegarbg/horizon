@@ -111,6 +111,7 @@
                             <thead>
                                 <th>Skill name</th>
                                 <th>Ranks</th>
+                                <th>Cost</th>
                             </thead>
                             <tbody data-bind="template: { name: 'skill-template', foreach: group.skills, as: 'skill' }"></tbody>
                         </table>
@@ -124,6 +125,7 @@
                         <td>
                             <input type="number" min="0" max="20" step="1" placeholder="0-20" class="input-small" data-bind="value: skill.rank, attr: { 'id': 'inputSkill'+group.name()+skill.name() }">
                         </td>
+                        <td data-bind="text: skill.cost"></td>
                     </tr>
                 </script>
 
