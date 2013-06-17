@@ -87,9 +87,9 @@
                 <!-- Template for character attribute input field -->
                 <script id="attribute-template" type="text/html">
                     <div class="control-group">
-                        <label class="control-label" for="inputStatName" data-bind="text: attribute.name"></label>
+                        <label class="control-label" data-bind="text: attribute.name, attr: { 'for': 'inputStat'+attribute.name() }"></label>
                         <div class="controls">
-                            <input type="number" min="0" max="9" step="1" id="inputStatName" placeholder="0-9" class="input-small" data-bind="value: attribute.score">
+                            <input type="number" min="0" max="9" step="1" placeholder="0-9" class="input-small" data-bind="value: attribute.score, attr: { 'id': 'inputStat'+attribute.name() }">
                             <span class="attribute-bonus" data-bind="text: attribute.bonus"></span>
                         </div>
                     </div>
@@ -122,7 +122,7 @@
                     <tr>
                         <td data-bind="text: skill.name"></td>
                         <td>
-                            <input type="number" min="0" max="20" step="1" id="inputStatName" placeholder="0-20" class="input-small" data-bind="value: skill.rank">
+                            <input type="number" min="0" max="20" step="1" placeholder="0-20" class="input-small" data-bind="value: skill.rank, attr: { 'id': 'inputSkill'+skill.name() }">
                         </td>
                     </tr>
                 </script>
