@@ -82,9 +82,7 @@
                                 <th>Score</th>
                                 <th>Bonus</th>
                             </thead>
-                            <tbody>
-                                <!--ko template: { name: 'attribute-template', foreach: group.attributes, as: 'attribute' }--><!--/ko-->
-                            </tbody>
+                            <tbody data-bind="template: { name: 'attribute-template', foreach: group.attributes, as: 'attribute' }"></tbody>
                         </table>
                     </div>
                 </script>
