@@ -732,7 +732,7 @@ var AppViewModel = {
     ]
 };
 
-var attributesMapping = {
+var mapping = {
     "attributes": {
         "create": function(options) {
             return new AttributesModel(options.data);
@@ -762,6 +762,6 @@ function SkillsModel(data) {
 }
 
 // Activate knockout.js
-var viewModel = ko.mapping.fromJS(AppViewModel, attributesMapping);
+var viewModel = ko.mapping.fromJS(AppViewModel, mapping);
 ko.applyBindings(viewModel);
 
