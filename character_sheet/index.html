@@ -68,9 +68,11 @@
 
         <div class="container">
 
-            <h1>Attributes</h1>
+            <h2>Attributes</h2>
 
             <div class="row char-attributes">
+
+                <div data-bind="template: { name: 'attribute-group-template', foreach: attribute_groups, as: 'group' }"></div>
 
                 <!-- Template for character attribute groups -->
                 <script id="attribute-group-template" type="text/html">
@@ -91,16 +93,48 @@
                 <script id="attribute-template" type="text/html">
                     <tr>
                         <td>
-                            <label class="control-label" for="inputStatName" data-bind="text: attribute.name"></label>
+                            <label class="control-label" data-bind="text: attribute.name, attr: { 'for': 'inputStat'+attribute.name() }"></label>
                         </td>
                         <td>
-                            <input type="number" min="0" max="9" step="1" id="inputStatName" placeholder="0-9" class="input-small" data-bind="value: attribute.score">
+                            <input type="number" min="0" max="9" step="1" placeholder="0-9" class="input-small" data-bind="value: attribute.score, attr: { 'id': 'inputStat'+attribute.name() }">
                         </td>
                         <td data-bind="text: attribute.bonus"></td>
                     </tr>
                 </script>
 
-                <div data-bind="template: { name: 'attribute-group-template', foreach: attribute_groups, as: 'group' }"></div>
+            </div>
+
+            <h2>Skills</h2>
+
+            <div class="row char-skills">
+
+                <div data-bind="template: { name: 'skill-group-template', foreach: skill_groups, as: 'group' }"></div>
+
+                <!-- Template for skill groups -->
+                <script id="skill-group-template" type="text/html">
+                    <div class="span3">
+                        <h3 data-bind="text: group.name"></h3>
+                        <table class="table table-hover">
+                            <thead>
+                                <th>Skill name</th>
+                                <th>Ranks</th>
+                                <th>Cost</th>
+                            </thead>
+                            <tbody data-bind="template: { name: 'skill-template', foreach: group.skills, as: 'skill' }"></tbody>
+                        </table>
+                    </div>
+                </script>
+
+                <!-- Template for skills -->
+                <script id="skill-template" type="text/html">
+                    <tr>
+                        <td data-bind="text: skill.name"></td>
+                        <td>
+                            <input type="number" min="0" max="20" step="1" placeholder="0-20" class="input-small" data-bind="value: skill.rank, attr: { 'id': 'inputSkill'+group.name()+skill.name() }">
+                        </td>
+                        <td data-bind="text: skill.cost"></td>
+                    </tr>
+                </script>
 
             </div>
 
