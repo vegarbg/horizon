@@ -140,6 +140,46 @@
 
             <hr>
 
+            <h2>Dice roller</h2>
+
+            <div class="row dice-roller">
+
+                <div class="span12">
+                    <table class="table table-hover">
+                        <thead>
+                            <th>Skill</th>
+                            <th>Skill bonus</th>
+                            <th>Attribute</th>
+                            <th>Attr. bonus</th>
+                            <th>Total bonus</th>
+                        </thead>
+                        <tbody>
+                            <td>
+                                <select data-bind="template: { name: 'select-skill-template', foreach: skill_groups, as: 'group' }"></select>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tbody>
+                    </table>
+                        
+                </div>
+
+                <!-- Template for skill selection -->
+                <script id="select-skill-template" type="text/html">
+                    <!--ko template: { name: 'select-skill-listitem-template', foreach: group.skills, as: 'skill' }--><!--/ko-->
+                </script>
+
+                <!-- Template for skill selection list items -->
+                <script id="select-skill-listitem-template" type="text/html">
+                    <option data-bind="text: group.name()+': '+skill.name()"></option>
+                </script>
+
+            </div>
+
+            <hr>
+
             <footer>
                 <p>&copy; Company 2012</p>
             </footer>
