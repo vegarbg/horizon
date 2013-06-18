@@ -763,5 +763,21 @@ function SkillsModel(data) {
 
 // Activate knockout.js
 var viewModel = ko.mapping.fromJS(AppViewModel, mapping);
+
+// Source: http://stackoverflow.com/a/10577599
+viewModel.skill_group_rows = ko.computed(function() {
+    var rows = [], current = [];
+    rows.push(current);
+    for (var i = 0; i < viewModel.skill_groups().length; i += 1) {
+        var x = viewModel.skill_groups();
+        current.push(viewModel.skill_groups()[i]);
+        if (((i + 1) % 4) === 0) {
+            current = [];
+            rows.push(current);
+        }
+    }
+    return rows;
+}, this);
+
 ko.applyBindings(viewModel);
 
