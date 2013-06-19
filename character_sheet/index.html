@@ -130,7 +130,9 @@
             <!-- Template for skills -->
             <script id="skill-template" type="text/html">
                 <tr>
-                    <td data-bind="text: skill.name"></td>
+                    <td>
+                        <label data-bind="text: skill.name, attr: { 'for': 'inputSkill'+group.name()+skill.name() }"></label>
+                    </td>
                     <td>
                         <input type="number" min="0" max="20" step="1" placeholder="0-20" class="input-small" data-bind="value: skill.rank, attr: { 'id': 'inputSkill'+group.name()+skill.name() }">
                     </td>
