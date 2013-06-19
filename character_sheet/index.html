@@ -160,7 +160,9 @@
                                 <select data-bind="options: skills_flattened, optionsText: 'name', optionsCaption: 'Choose&hellip;', value: selected_skill"></select>
                             </td>
                             <td data-bind="text: selected_skill() ? selected_skill().bonus : null"></td>
-                            <td></td>
+                            <td>
+                                <select data-bind="options: selected_skill() ? selected_skill().primary_attributes : null, optionsCaption: 'Choose&hellip;'"></select>
+                            </td>
                             <td></td>
                             <td></td>
                         </tbody>
