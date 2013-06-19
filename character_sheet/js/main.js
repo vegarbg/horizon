@@ -503,7 +503,7 @@ var AppViewModel = {
                     name: "Herbalism",
                     primary_attributes: [
                         "Reasoning",
-                        "Intuition"
+                        "Insight"
                     ],
                     secondary_attributes: [
                         "Composure"
@@ -574,7 +574,7 @@ var AppViewModel = {
                 {
                     name: "Knowledge (Religion)",
                     primary_attributes: [
-                        "Intuition",
+                        "Insight",
                         "Reasoning"
                     ],
                     secondary_attributes: [
@@ -584,7 +584,7 @@ var AppViewModel = {
                 {
                     name: "Knowledge (History)",
                     primary_attributes: [
-                        "Intuition",
+                        "Insight",
                         "Reasoning"
                     ],
                     secondary_attributes: [
@@ -594,7 +594,7 @@ var AppViewModel = {
                 {
                     name: "Knowledge (Anatomy)",
                     primary_attributes: [
-                        "Intuition",
+                        "Insight",
                         "Reasoning"
                     ],
                     secondary_attributes: [
@@ -604,7 +604,7 @@ var AppViewModel = {
                 {
                     name: "Knowledge (Magic)",
                     primary_attributes: [
-                        "Intuition",
+                        "Insight",
                         "Reasoning"
                     ],
                     secondary_attributes: [
