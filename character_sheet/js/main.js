@@ -132,43 +132,67 @@ var AppViewModel = {
                 {
                     name: "Climb",
                     primary_attributes: [
+                        "Strength",
+                        "Endurance"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Speed"
                     ]
                 },
                 {
                     name: "Jump",
                     primary_attributes: [
+                        "Strength",
+                        "Agility"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance"
                     ]
                 },
                 {
                     name: "Contort",
                     primary_attributes: [
+                        "Agility",
+                        "Strength"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance"
                     ]
                 },
                 {
                     name: "Swim",
                     primary_attributes: [
+                        "Agility",
+                        "Strength"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance"
                     ]
                 },
                 {
                     name: "Balance",
                     primary_attributes: [
+                        "Agility",
+                        "Composure"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance"
                     ]
                 },
                 {
                     name: "Acrobatics",
                     primary_attributes: [
+                        "Agility",
+                        "Strength"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance"
                     ]
                 }
             ]
@@ -179,22 +203,34 @@ var AppViewModel = {
                 {
                     name: "Light Armour",
                     primary_attributes: [
+                        "Agility",
+                        "Speed"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Endurance"
                     ]
                 },
                 {
                     name: "Medium Armour",
                     primary_attributes: [
+                        "Strength",
+                        "Agility"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance"
                     ]
                 },
                 {
                     name: "Heavy Armour",
                     primary_attributes: [
+                        "Strength",
+                        "Endurance"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Speed"
                     ]
                 }
             ]
@@ -205,36 +241,67 @@ var AppViewModel = {
                 {
                     name: "Soft Fall",
                     primary_attributes: [
+                        "Agility",
+                        "Awareness"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Speed",
+                        "Insight",
+                        "Perception",
+                        "Endurance"
                     ]
                 },
                 {
                     name: "Sweeping Throw",
                     primary_attributes: [
+                        "Agility",
+                        "Strength"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Insight",
+                        "Perception",
+                        "Endurance"
                     ]
                 },
                 {
                     name: "Punches",
                     primary_attributes: [
+                        "Strength",
+                        "Speed"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Insight",
+                        "Perception",
+                        "Endurance"
                     ]
                 },
                 {
                     name: "Kicks",
                     primary_attributes: [
+                        "Strength",
+                        "Agility"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Insight",
+                        "Perception",
+                        "Endurance"
                     ]
                 },
                 {
                     name: "Locking Grip",
                     primary_attributes: [
+                        "Agility",
+                        "Strength"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Insight",
+                        "Perception",
+                        "Endurance"
                     ]
                 }
             ]
@@ -245,36 +312,61 @@ var AppViewModel = {
                 {
                     name: "Bluff",
                     primary_attributes: [
+                        "Manipulation",
+                        "Presence"
                     ],
                     secondary_attributes: [
+                        "Insight",
+                        "Composure",
+                        "Beauty"
                     ]
                 },
                 {
                     name: "Diplomacy",
                     primary_attributes: [
+                        "Insight",
+                        "Composure"
                     ],
                     secondary_attributes: [
+                        "Presence",
+                        "Manipulation",
+                        "Beauty"
                     ]
                 },
                 {
                     name: "Intimidate",
                     primary_attributes: [
+                        "Presence",
+                        "Manipulation"
                     ],
                     secondary_attributes: [
+                        "Insight",
+                        "Composure",
+                        "Beauty"
                     ]
                 },
                 {
                     name: "Seduce",
                     primary_attributes: [
+                        "Presence",
+                        "Beauty"
                     ],
                     secondary_attributes: [
+                        "Insight",
+                        "Manipulation",
+                        "Composure"
                     ]
                 },
                 {
                     name: "Disguise",
                     primary_attributes: [
+                        "Presence",
+                        "Insight"
                     ],
                     secondary_attributes: [
+                        "Manipulation",
+                        "Composure",
+                        "Beauty"
                     ]
                 }
             ]
@@ -285,29 +377,46 @@ var AppViewModel = {
                 {
                     name: "Forgery",
                     primary_attributes: [
+                        "Perception",
+                        "Insight"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Reasoning",
+                        "Composure"
                     ]
                 },
                 {
                     name: "Open Lock",
                     primary_attributes: [
+                        "Perception",
+                        "Agility"
                     ],
                     secondary_attributes: [
+                        "Reasoning",
+                        "Composure"
                     ]
                 },
                 {
                     name: "Disable Trap",
                     primary_attributes: [
+                        "Agility",
+                        "Reasoning"
                     ],
                     secondary_attributes: [
+                        "Perception",
+                        "Composure"
                     ]
                 },
                 {
                     name: "Sneak",
                     primary_attributes: [
+                        "Agility",
+                        "Perception"
                     ],
                     secondary_attributes: [
+                        "Reasoning",
+                        "Composure"
                     ]
                 }
             ]
@@ -318,22 +427,34 @@ var AppViewModel = {
                 {
                     name: "Locksmith",
                     primary_attributes: [
+                        "Agility",
+                        "Reasoning"
                     ],
                     secondary_attributes: [
+                        "Insight",
+                        "Perception"
                     ]
                 },
                 {
                     name: "Clockmaker",
                     primary_attributes: [
+                        "Agility",
+                        "Perception"
                     ],
                     secondary_attributes: [
+                        "Insight",
+                        "Reasoning"
                     ]
                 },
                 {
                     name: "Trapmaking",
                     primary_attributes: [
+                        "Reasoning",
+                        "Agility"
                     ],
                     secondary_attributes: [
+                        "Insight",
+                        "Perception"
                     ]
                 }
             ]
@@ -344,15 +465,23 @@ var AppViewModel = {
                 {
                     name: "Carpentry",
                     primary_attributes: [
+                        "Endurance",
+                        "Reasoning"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Masonry",
                     primary_attributes: [
+                        "Endurance",
+                        "Reasoning"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Insight"
                     ]
                 }
             ]
@@ -363,15 +492,21 @@ var AppViewModel = {
                 {
                     name: "Treat Wounds",
                     primary_attributes: [
+                        "Insight",
+                        "Composure"
                     ],
                     secondary_attributes: [
+                        "Reasoning"
                     ]
                 },
                 {
                     name: "Herbalism",
                     primary_attributes: [
+                        "Reasoning",
+                        "Intuition"
                     ],
                     secondary_attributes: [
+                        "Composure"
                     ]
                 }
             ]
@@ -382,29 +517,53 @@ var AppViewModel = {
                 {
                     name: "Music [instrument]",
                     primary_attributes: [
+                        "Presence",
+                        "Insight"
                     ],
                     secondary_attributes: [
+                        "Manipulation",
+                        "Agility",
+                        "Composure",
+                        "Beauty"
                     ]
                 },
                 {
                     name: "Oratory",
                     primary_attributes: [
+                        "Presence",
+                        "Composure"
                     ],
                     secondary_attributes: [
+                        "Manipulation",
+                        "Agility",
+                        "Insight",
+                        "Beauty"
                     ]
                 },
                 {
                     name: "Theatre",
                     primary_attributes: [
+                        "Composure",
+                        "Presence"
                     ],
                     secondary_attributes: [
+                        "Manipulation",
+                        "Agility",
+                        "Insight",
+                        "Beauty"
                     ]
                 },
                 {
                     name: "Buffoonery",
                     primary_attributes: [
+                        "Agility",
+                        "Presence"
                     ],
                     secondary_attributes: [
+                        "Manipulation",
+                        "Insight",
+                        "Composure",
+                        "Beauty"
                     ]
                 }
             ]
@@ -415,29 +574,41 @@ var AppViewModel = {
                 {
                     name: "Knowledge (Religion)",
                     primary_attributes: [
+                        "Intuition",
+                        "Reasoning"
                     ],
                     secondary_attributes: [
+                        "Perception"
                     ]
                 },
                 {
                     name: "Knowledge (History)",
                     primary_attributes: [
+                        "Intuition",
+                        "Reasoning"
                     ],
                     secondary_attributes: [
+                        "Perception"
                     ]
                 },
                 {
                     name: "Knowledge (Anatomy)",
                     primary_attributes: [
+                        "Intuition",
+                        "Reasoning"
                     ],
                     secondary_attributes: [
+                        "Perception"
                     ]
                 },
                 {
                     name: "Knowledge (Magic)",
                     primary_attributes: [
+                        "Intuition",
+                        "Reasoning"
                     ],
                     secondary_attributes: [
+                        "Perception"
                     ]
                 }
             ]
@@ -448,50 +619,92 @@ var AppViewModel = {
                 {
                     name: "Knife",
                     primary_attributes: [
+                        "Speed",
+                        "Agility"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Short Sword",
                     primary_attributes: [
+                        "Speed",
+                        "Strength"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Long Sword",
                     primary_attributes: [
+                        "Strength",
+                        "Speed"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Greatsword",
                     primary_attributes: [
+                        "Strength",
+                        "Endurance"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Speed",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Rapier",
                     primary_attributes: [
+                        "Agility",
+                        "Speed"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Axe",
                     primary_attributes: [
+                        "Strength",
+                        "Speed"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Greataxe",
                     primary_attributes: [
+                        "Strength",
+                        "Endurance"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Speed",
+                        "Perception",
+                        "Insight"
                     ]
                 }
             ]
@@ -502,50 +715,92 @@ var AppViewModel = {
                 {
                     name: "Club",
                     primary_attributes: [
+                        "Strength",
+                        "Agility"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Greatclub",
                     primary_attributes: [
+                        "Strength",
+                        "Agility"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Flail",
                     primary_attributes: [
+                        "Agility",
+                        "Strength"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Baton",
                     primary_attributes: [
+                        "Agility",
+                        "Speed"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Sap",
                     primary_attributes: [
+                        "Speed",
+                        "Agility"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Axe",
                     primary_attributes: [
+                        "Strength",
+                        "Speed"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Greataxe",
                     primary_attributes: [
+                        "Strength",
+                        "Endurance"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Agility",
+                        "Perception",
+                        "Insight"
                     ]
                 }
             ]
@@ -556,29 +811,49 @@ var AppViewModel = {
                 {
                     name: "Footbow",
                     primary_attributes: [
+                        "Strength",
+                        "Perception"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Longbow",
                     primary_attributes: [
+                        "Perception",
+                        "Strength"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Shortbow",
                     primary_attributes: [
+                        "Perception",
+                        "Agility"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Crossbow",
                     primary_attributes: [
+                        "Perception",
+                        "Agility"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Endurance",
+                        "Insight"
                     ]
                 }
             ]
@@ -589,50 +864,96 @@ var AppViewModel = {
                 {
                     name: "Knife",
                     primary_attributes: [
+                        "Agility",
+                        "Perception"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Strength",
+                        "Speed",
+                        "Perception",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Sling",
                     primary_attributes: [
+                        "Agility",
+                        "Perception"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Strength",
+                        "Speed",
+                        "Perception",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Spear",
                     primary_attributes: [
+                        "Strength",
+                        "Perception"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Speed",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Darts",
                     primary_attributes: [
+                        "Perception",
+                        "Strength"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Speed",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Shuriken",
                     primary_attributes: [
+                        "Speed",
+                        "Perception"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Strength",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Boomerang",
                     primary_attributes: [
+                        "Agility",
+                        "Strength"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Perception",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Bolas",
                     primary_attributes: [
+                        "Perception",
+                        "Insight"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Strength",
+                        "Speed",
+                        "Endurance"
                     ]
                 }
             ]
@@ -643,36 +964,66 @@ var AppViewModel = {
                 {
                     name: "Halberd",
                     primary_attributes: [
+                        "Strength",
+                        "Endurance"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Perception",
+                        "Insight",
+                        "Speed"
                     ]
                 },
                 {
                     name: "Spear",
                     primary_attributes: [
+                        "Agility",
+                        "Strength"
                     ],
                     secondary_attributes: [
+                        "Endurance",
+                        "Perception",
+                        "Insight",
+                        "Speed"
                     ]
                 },
                 {
                     name: "Lance",
                     primary_attributes: [
+                        "Endurance",
+                        "Insight"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Strength",
+                        "Perception",
+                        "Speed"
                     ]
                 },
                 {
                     name: "Quarterstaff",
                     primary_attributes: [
+                        "Speed",
+                        "Strength"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
                     name: "Three-part Staff",
                     primary_attributes: [
+                        "Agility",
+                        "Speed"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 }
             ]
@@ -683,22 +1034,40 @@ var AppViewModel = {
                 {
                     name: "Rope Dart",
                     primary_attributes: [
+                        "Agility",
+                        "Perception"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Insight",
+                        "Strength",
+                        "Endurance"
                     ]
                 },
                 {
                     name: "Chain",
                     primary_attributes: [
+                        "Agility",
+                        "Strength"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Insight",
+                        "Endurance",
+                        "Perception"
                     ]
                 },
                 {
                     name: "Whip",
                     primary_attributes: [
+                        "Agility",
+                        "Speed"
                     ],
                     secondary_attributes: [
+                        "Insight",
+                        "Strength",
+                        "Endurance",
+                        "Perception"
                     ]
                 }
             ]
@@ -709,22 +1078,37 @@ var AppViewModel = {
                 {
                     name: "Handle Animal",
                     primary_attributes: [
+                        "Insight",
+                        "Manipulation"
                     ],
                     secondary_attributes: [
+                        "Presence",
+                        "Composure",
+                        "Agility"
                     ]
                 },
                 {
                     name: "Ride",
                     primary_attributes: [
+                        "Presence",
+                        "Agility"
                     ],
                     secondary_attributes: [
+                        "Insight",
+                        "Composure",
+                        "Manipulation"
                     ]
                 },
                 {
                     name: "Animal Empathy",
                     primary_attributes: [
+                        "Insight",
+                        "Composure"
                     ],
                     secondary_attributes: [
+                        "Presence",
+                        "Agility",
+                        "Manipulation"
                     ]
                 }
             ]
