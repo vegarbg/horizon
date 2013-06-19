@@ -136,6 +136,8 @@ var AppViewModel = {
                         "Endurance"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Speed"
                     ]
                 },
                 {
@@ -145,6 +147,8 @@ var AppViewModel = {
                         "Agility"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance"
                     ]
                 },
                 {
@@ -154,6 +158,8 @@ var AppViewModel = {
                         "Strength"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance"
                     ]
                 },
                 {
@@ -163,6 +169,8 @@ var AppViewModel = {
                         "Strength"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance"
                     ]
                 },
                 {
@@ -172,6 +180,8 @@ var AppViewModel = {
                         "Composure"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance"
                     ]
                 },
                 {
@@ -181,6 +191,8 @@ var AppViewModel = {
                         "Strength"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance"
                     ]
                 }
             ]
@@ -195,6 +207,8 @@ var AppViewModel = {
                         "Speed"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Endurance"
                     ]
                 },
                 {
@@ -204,6 +218,8 @@ var AppViewModel = {
                         "Agility"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance"
                     ]
                 },
                 {
@@ -213,6 +229,8 @@ var AppViewModel = {
                         "Endurance"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Speed"
                     ]
                 }
             ]
@@ -227,6 +245,11 @@ var AppViewModel = {
                         "Awareness"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Speed",
+                        "Insight",
+                        "Perception",
+                        "Endurance"
                     ]
                 },
                 {
@@ -236,6 +259,10 @@ var AppViewModel = {
                         "Strength"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Insight",
+                        "Perception",
+                        "Endurance"
                     ]
                 },
                 {
@@ -245,6 +272,10 @@ var AppViewModel = {
                         "Speed"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Insight",
+                        "Perception",
+                        "Endurance"
                     ]
                 },
                 {
@@ -254,6 +285,10 @@ var AppViewModel = {
                         "Agility"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Insight",
+                        "Perception",
+                        "Endurance"
                     ]
                 },
                 {
@@ -263,6 +298,10 @@ var AppViewModel = {
                         "Strength"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Insight",
+                        "Perception",
+                        "Endurance"
                     ]
                 }
             ]
@@ -277,6 +316,9 @@ var AppViewModel = {
                         "Presence"
                     ],
                     secondary_attributes: [
+                        "Insight",
+                        "Composure",
+                        "Beauty"
                     ]
                 },
                 {
@@ -286,6 +328,9 @@ var AppViewModel = {
                         "Composure"
                     ],
                     secondary_attributes: [
+                        "Presence",
+                        "Manipulation",
+                        "Beauty"
                     ]
                 },
                 {
@@ -295,6 +340,9 @@ var AppViewModel = {
                         "Manipulation"
                     ],
                     secondary_attributes: [
+                        "Insight",
+                        "Composure",
+                        "Beauty"
                     ]
                 },
                 {
@@ -304,6 +352,9 @@ var AppViewModel = {
                         "Beauty"
                     ],
                     secondary_attributes: [
+                        "Insight",
+                        "Manipulation",
+                        "Composure"
                     ]
                 },
                 {
@@ -313,6 +364,9 @@ var AppViewModel = {
                         "Insight"
                     ],
                     secondary_attributes: [
+                        "Manipulation",
+                        "Composure",
+                        "Beauty"
                     ]
                 }
             ]
@@ -327,6 +381,9 @@ var AppViewModel = {
                         "Insight"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Reasoning",
+                        "Composure"
                     ]
                 },
                 {
@@ -336,6 +393,8 @@ var AppViewModel = {
                         "Agility"
                     ],
                     secondary_attributes: [
+                        "Reasoning",
+                        "Composure"
                     ]
                 },
                 {
@@ -345,6 +404,8 @@ var AppViewModel = {
                         "Reasoning"
                     ],
                     secondary_attributes: [
+                        "Perception",
+                        "Composure"
                     ]
                 },
                 {
@@ -354,6 +415,8 @@ var AppViewModel = {
                         "Perception"
                     ],
                     secondary_attributes: [
+                        "Reasoning",
+                        "Composure"
                     ]
                 }
             ]
@@ -368,6 +431,8 @@ var AppViewModel = {
                         "Reasoning"
                     ],
                     secondary_attributes: [
+                        "Insight",
+                        "Perception"
                     ]
                 },
                 {
@@ -377,6 +442,8 @@ var AppViewModel = {
                         "Perception"
                     ],
                     secondary_attributes: [
+                        "Insight",
+                        "Reasoning"
                     ]
                 },
                 {
@@ -386,6 +453,8 @@ var AppViewModel = {
                         "Agility"
                     ],
                     secondary_attributes: [
+                        "Insight",
+                        "Perception"
                     ]
                 }
             ]
@@ -400,6 +469,8 @@ var AppViewModel = {
                         "Reasoning"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Insight"
                     ]
                 },
                 {
@@ -409,6 +480,8 @@ var AppViewModel = {
                         "Reasoning"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Insight"
                     ]
                 }
             ]
@@ -423,6 +496,7 @@ var AppViewModel = {
                         "Composure"
                     ],
                     secondary_attributes: [
+                        "Reasoning"
                     ]
                 },
                 {
@@ -432,6 +506,7 @@ var AppViewModel = {
                         "Intuition"
                     ],
                     secondary_attributes: [
+                        "Composure"
                     ]
                 }
             ]
@@ -446,6 +521,10 @@ var AppViewModel = {
                         "Insight"
                     ],
                     secondary_attributes: [
+                        "Manipulation",
+                        "Agility",
+                        "Composure",
+                        "Beauty"
                     ]
                 },
                 {
@@ -455,6 +534,10 @@ var AppViewModel = {
                         "Composure"
                     ],
                     secondary_attributes: [
+                        "Manipulation",
+                        "Agility",
+                        "Insight",
+                        "Beauty"
                     ]
                 },
                 {
@@ -464,6 +547,10 @@ var AppViewModel = {
                         "Presence"
                     ],
                     secondary_attributes: [
+                        "Manipulation",
+                        "Agility",
+                        "Insight",
+                        "Beauty"
                     ]
                 },
                 {
@@ -473,6 +560,10 @@ var AppViewModel = {
                         "Presence"
                     ],
                     secondary_attributes: [
+                        "Manipulation",
+                        "Insight",
+                        "Composure",
+                        "Beauty"
                     ]
                 }
             ]
@@ -487,6 +578,7 @@ var AppViewModel = {
                         "Reasoning"
                     ],
                     secondary_attributes: [
+                        "Perception"
                     ]
                 },
                 {
@@ -496,6 +588,7 @@ var AppViewModel = {
                         "Reasoning"
                     ],
                     secondary_attributes: [
+                        "Perception"
                     ]
                 },
                 {
@@ -505,6 +598,7 @@ var AppViewModel = {
                         "Reasoning"
                     ],
                     secondary_attributes: [
+                        "Perception"
                     ]
                 },
                 {
@@ -514,6 +608,7 @@ var AppViewModel = {
                         "Reasoning"
                     ],
                     secondary_attributes: [
+                        "Perception"
                     ]
                 }
             ]
@@ -528,6 +623,10 @@ var AppViewModel = {
                         "Agility"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
@@ -537,6 +636,10 @@ var AppViewModel = {
                         "Strength"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
@@ -546,6 +649,10 @@ var AppViewModel = {
                         "Speed"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
@@ -555,6 +662,10 @@ var AppViewModel = {
                         "Endurance"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Speed",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
@@ -564,6 +675,10 @@ var AppViewModel = {
                         "Speed"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
@@ -573,6 +688,10 @@ var AppViewModel = {
                         "Speed"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
@@ -582,6 +701,10 @@ var AppViewModel = {
                         "Endurance"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Speed",
+                        "Perception",
+                        "Insight"
                     ]
                 }
             ]
@@ -596,6 +719,10 @@ var AppViewModel = {
                         "Agility"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
@@ -605,6 +732,10 @@ var AppViewModel = {
                         "Agility"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
@@ -614,6 +745,10 @@ var AppViewModel = {
                         "Strength"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
@@ -623,6 +758,10 @@ var AppViewModel = {
                         "Speed"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
@@ -632,6 +771,10 @@ var AppViewModel = {
                         "Agility"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
@@ -641,6 +784,10 @@ var AppViewModel = {
                         "Speed"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
@@ -650,6 +797,10 @@ var AppViewModel = {
                         "Endurance"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Agility",
+                        "Perception",
+                        "Insight"
                     ]
                 }
             ]
@@ -664,6 +815,9 @@ var AppViewModel = {
                         "Perception"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
@@ -673,6 +827,9 @@ var AppViewModel = {
                         "Strength"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
@@ -682,6 +839,9 @@ var AppViewModel = {
                         "Agility"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
@@ -691,6 +851,9 @@ var AppViewModel = {
                         "Agility"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Endurance",
+                        "Insight"
                     ]
                 }
             ]
@@ -705,6 +868,12 @@ var AppViewModel = {
                         "Perception"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Strength",
+                        "Speed",
+                        "Perception",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
@@ -714,6 +883,12 @@ var AppViewModel = {
                         "Perception"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Strength",
+                        "Speed",
+                        "Perception",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
@@ -723,6 +898,10 @@ var AppViewModel = {
                         "Perception"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Speed",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
@@ -732,6 +911,10 @@ var AppViewModel = {
                         "Strength"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Speed",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
@@ -741,6 +924,10 @@ var AppViewModel = {
                         "Perception"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Strength",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
@@ -750,6 +937,10 @@ var AppViewModel = {
                         "Strength"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Perception",
+                        "Endurance",
+                        "Insight"
                     ]
                 },
                 {
@@ -759,6 +950,10 @@ var AppViewModel = {
                         "Insight"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Strength",
+                        "Speed",
+                        "Endurance"
                     ]
                 }
             ]
@@ -773,6 +968,10 @@ var AppViewModel = {
                         "Endurance"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Perception",
+                        "Insight",
+                        "Speed"
                     ]
                 },
                 {
@@ -782,6 +981,10 @@ var AppViewModel = {
                         "Strength"
                     ],
                     secondary_attributes: [
+                        "Endurance",
+                        "Perception",
+                        "Insight",
+                        "Speed"
                     ]
                 },
                 {
@@ -791,6 +994,10 @@ var AppViewModel = {
                         "Insight"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Strength",
+                        "Perception",
+                        "Speed"
                     ]
                 },
                 {
@@ -800,6 +1007,10 @@ var AppViewModel = {
                         "Strength"
                     ],
                     secondary_attributes: [
+                        "Agility",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 },
                 {
@@ -809,6 +1020,10 @@ var AppViewModel = {
                         "Speed"
                     ],
                     secondary_attributes: [
+                        "Strength",
+                        "Endurance",
+                        "Perception",
+                        "Insight"
                     ]
                 }
             ]
@@ -823,6 +1038,10 @@ var AppViewModel = {
                         "Perception"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Insight",
+                        "Strength",
+                        "Endurance"
                     ]
                 },
                 {
@@ -832,6 +1051,10 @@ var AppViewModel = {
                         "Strength"
                     ],
                     secondary_attributes: [
+                        "Speed",
+                        "Insight",
+                        "Endurance",
+                        "Perception"
                     ]
                 },
                 {
@@ -841,6 +1064,10 @@ var AppViewModel = {
                         "Speed"
                     ],
                     secondary_attributes: [
+                        "Insight",
+                        "Strength",
+                        "Endurance",
+                        "Perception"
                     ]
                 }
             ]
@@ -855,6 +1082,9 @@ var AppViewModel = {
                         "Manipulation"
                     ],
                     secondary_attributes: [
+                        "Presence",
+                        "Composure",
+                        "Agility"
                     ]
                 },
                 {
@@ -864,6 +1094,9 @@ var AppViewModel = {
                         "Agility"
                     ],
                     secondary_attributes: [
+                        "Insight",
+                        "Composure",
+                        "Manipulation"
                     ]
                 },
                 {
@@ -873,6 +1106,9 @@ var AppViewModel = {
                         "Composure"
                     ],
                     secondary_attributes: [
+                        "Presence",
+                        "Agility",
+                        "Manipulation"
                     ]
                 }
             ]
