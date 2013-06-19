@@ -796,6 +796,7 @@ viewModel.skills_flattened = ko.computed(function() {
 }, this);
 
 viewModel.selected_skill = ko.observable();
+viewModel.selected_attribute = ko.observable();
 
 ko.applyBindings(viewModel);
 
