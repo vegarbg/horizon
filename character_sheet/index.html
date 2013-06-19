@@ -157,9 +157,7 @@
                         </thead>
                         <tbody>
                             <td>
-                                <select data-bind="foreach: skills_flattened">
-                                    <option data-bind="text: $data.name"></option>
-                                </select>
+                                <select data-bind="options: skills_flattened, optionsText: 'name', optionsCaption: 'Choose&hellip;', value: selected_skill"></select>
                             </td>
                             <td></td>
                             <td></td>
