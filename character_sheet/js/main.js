@@ -786,6 +786,7 @@ viewModel.skills_flattened = ko.computed(function() {
             current.name = x[i].name() + ": " + x[i].skills()[j].name();
             current.group = x[i].name();
             current.skill = x[i].skills()[j].name();
+            current.bonus = x[i].skills()[j].rank() * 3;
             rows.push(current);
         }
     }
