@@ -782,7 +782,10 @@ viewModel.skills_flattened = ko.computed(function() {
     var rows = [], current, x = viewModel.skill_groups();
     for (var i = 0; i < x.length; i++) {
         for (var j = 0; j < x[i].skills().length; j++) {
-            current = x[i].name() + ": " + x[i].skills()[j].name();
+            current = {}
+            current.name = x[i].name() + ": " + x[i].skills()[j].name();
+            current.group = x[i].name();
+            current.skill = x[i].skills()[j].name();
             rows.push(current);
         }
     }
