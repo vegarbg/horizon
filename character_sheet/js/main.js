@@ -793,5 +793,7 @@ viewModel.skills_flattened = ko.computed(function() {
     return rows;
 }, this);
 
+viewModel.selected_skill = ko.observable();
+
 ko.applyBindings(viewModel);
 
