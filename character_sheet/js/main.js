@@ -1154,7 +1154,7 @@ viewModel.skill_group_rows = ko.computed(function() {
     rows.push(current);
     for (var i = 0; i < x.length; i += 1) {
         current.push(x[i]);
-        if (((i + 1) % 4) === 0) {
+        if (((i + 1) % 3) === 0) {
             current = [];
             rows.push(current);
         }
