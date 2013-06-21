@@ -70,7 +70,7 @@
 
             <h2>Attributes</h2>
 
-            <div class="row char-attributes">
+            <div class="row-fluid char-attributes">
 
                 <div data-bind="template: { name: 'attribute-group-template', foreach: attribute_groups, as: 'group' }"></div>
 
@@ -109,7 +109,7 @@
             <h2>Skills</h2>
 
             <div class="char-skills" data-bind="foreach: { data: skill_group_rows, as: 'row' }">
-                <div class="row" data-bind="template: { name: 'skill-group-template', foreach: row, as: 'group' }"></div>
+                <div class="row-fluid" data-bind="template: { name: 'skill-group-template', foreach: row, as: 'group' }"></div>
             </div>
 
             <!-- Template for skill groups -->
@@ -144,7 +144,7 @@
 
             <h2>Dice roller</h2>
 
-            <div class="row dice-roller">
+            <div class="row-fluid dice-roller">
 
                 <div class="span12">
                     <table class="table table-hover">
